@@ -11,7 +11,7 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <div className="App">
-      <Router basename="{process.env.PUBLIC_URL}">
+      <Router basename={process.env.PUBLIC_URL}>
         {" "}
         {/* Ensure basename matches your deployment */}
         <Navbar />
