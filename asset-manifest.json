@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.73beca91.css",
-    "main.js": "/static/js/main.6b72c25b.js",
-    "static/media/down-syndrome-colour.png": "/static/media/down-syndrome-colour.a4dd3ee19d69b9b00924.png",
-    "static/media/Girl-wheelchair.png": "/static/media/Girl-wheelchair.fd377c7523268f67348f.png",
-    "static/media/Disability-sign.png": "/static/media/Disability-sign.4e2c5d898cf0a8a9d26e.png",
-    "static/media/logo.png": "/static/media/logo.a315d657bde2eccf2436.png",
-    "index.html": "/index.html",
-    "main.73beca91.css.map": "/static/css/main.73beca91.css.map",
-    "main.6b72c25b.js.map": "/static/js/main.6b72c25b.js.map"
+    "main.css": "/trusted-pathways/static/css/main.73beca91.css",
+    "main.js": "/trusted-pathways/static/js/main.b584366e.js",
+    "static/media/down-syndrome-colour.png": "/trusted-pathways/static/media/down-syndrome-colour.a4dd3ee19d69b9b00924.png",
+    "static/media/Girl-wheelchair.png": "/trusted-pathways/static/media/Girl-wheelchair.fd377c7523268f67348f.png",
+    "static/media/Disability-sign.png": "/trusted-pathways/static/media/Disability-sign.4e2c5d898cf0a8a9d26e.png",
+    "static/media/logo.png": "/trusted-pathways/static/media/logo.a315d657bde2eccf2436.png",
+    "index.html": "/trusted-pathways/index.html",
+    "main.73beca91.css.map": "/trusted-pathways/static/css/main.73beca91.css.map",
+    "main.b584366e.js.map": "/trusted-pathways/static/js/main.b584366e.js.map"
   },
   "entrypoints": [
     "static/css/main.73beca91.css",
-    "static/js/main.6b72c25b.js"
+    "static/js/main.b584366e.js"
   ]
 }
