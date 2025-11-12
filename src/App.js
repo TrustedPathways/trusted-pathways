@@ -11,13 +11,16 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <div className="App">
-      <Router basename="/"> {/* Ensure basename matches your deployment */}
-        <Navbar/>
+      <Router basename="{process.env.PUBLIC_URL}">
+        {" "}
+        {/* Ensure basename matches your deployment */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/legal" element={<Legal />} />
           <Route path="/appointment" element={<Appointment />} />
-          <Route path="/contact" element={<ContactForm />} /> {/* Route for ContactForm */}
+          <Route path="/contact" element={<ContactForm />} />{" "}
+          {/* Route for ContactForm */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
