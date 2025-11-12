@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/TrustedPathways/trusted-pathways/static/css/main.73beca91.css",
+    "main.js": "/TrustedPathways/trusted-pathways/static/js/main.6528f608.js",
+    "static/media/down-syndrome-colour.png": "/TrustedPathways/trusted-pathways/static/media/down-syndrome-colour.a4dd3ee19d69b9b00924.png",
+    "static/media/Girl-wheelchair.png": "/TrustedPathways/trusted-pathways/static/media/Girl-wheelchair.fd377c7523268f67348f.png",
+    "static/media/Disability-sign.png": "/TrustedPathways/trusted-pathways/static/media/Disability-sign.4e2c5d898cf0a8a9d26e.png",
+    "static/media/logo.png": "/TrustedPathways/trusted-pathways/static/media/logo.a315d657bde2eccf2436.png",
+    "index.html": "/TrustedPathways/trusted-pathways/index.html",
+    "main.73beca91.css.map": "/TrustedPathways/trusted-pathways/static/css/main.73beca91.css.map",
+    "main.6528f608.js.map": "/TrustedPathways/trusted-pathways/static/js/main.6528f608.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73beca91.css",
+    "static/js/main.6528f608.js"
+  ]
+}
