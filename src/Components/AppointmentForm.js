@@ -23,19 +23,19 @@ function AppointmentForm() {
     // Validate form inputs
     const errors = {};
     if (!patientName.trim()) {
-      errors.patientName = "Patient name is required";
+      errors.patientName = "Name is required";
     } else if (patientName.trim().length < 8) {
-      errors.patientName = "Patient name must be at least 8 characters";
+      errors.patientName = "Name must be at least 8 characters";
     }
 
     if (!patientNumber.trim()) {
-      errors.patientNumber = "Patient phone number is required";
+      errors.patientNumber = "Phone number is required";
     } else if (patientNumber.trim().length !== 10) {
-      errors.patientNumber = "Patient phone number must be of 10 digits";
+      errors.patientNumber = "Phone number must be of 10 digits";
     }
 
     if (patientGender === "default") {
-      errors.patientGender = "Please select patient gender";
+      errors.patientGender = "Please select gender";
     }
     if (!appointmentTime) {
       errors.appointmentTime = "Appointment time is required";
@@ -66,7 +66,7 @@ function AppointmentForm() {
 
     try {
       // Simulate sending form data (replace with actual endpoint)
-      const response = await fetch("https://formspree.io/f/xleyvgbq", {
+      const response = await fetch("https://formspree.io/f/mkgkrlkn", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -102,7 +102,7 @@ function AppointmentForm() {
     <div className="appointment-form-section">
       <h1 className="legal-siteTitle">
         <Link to="/">
-           <span className="legal-siteSign"></span>
+          <span className="legal-siteSign"></span>
         </Link>
       </h1>
 
@@ -150,7 +150,7 @@ function AppointmentForm() {
               <option value="default">Select</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
-              <option value="private">I will inform Doctor only</option>
+              <option value="private">Prefer not to say</option>
             </select>
             {formErrors.patientGender && (
               <p className="error-message">{formErrors.patientGender}</p>
@@ -181,7 +181,7 @@ function AppointmentForm() {
             >
               <option value="default">Select</option>
               <option value="voice">Voice Call</option>
-              <option value="video">Video Call</option>
+              <option value="face-to-face">Face to face</option>
             </select>
             {formErrors.preferredMode && (
               <p className="error-message">{formErrors.preferredMode}</p>
@@ -212,4 +212,3 @@ function AppointmentForm() {
 }
 
 export default AppointmentForm;
-

@@ -43,7 +43,7 @@ const ContactForm = () => {
 
     try {
       // Simulate sending form data (replace with actual endpoint)
-      const response = await fetch("https://formspree.io/f/xleyvgbq", {
+      const response = await fetch("https://formspree.io/f/mpwkdgka", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -80,18 +80,22 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="appointment-form-section"> {/* Reuse the styling class name */}
+    <div className="appointment-form-section">
+      {" "}
+      {/* Reuse the styling class name */}
       <h1 className="legal-siteTitle">
         {/*<Link to="/">
           CISS <span className="legal-siteSign">+</span>
         </Link>*/}
       </h1>
-
-      <div className="form-container"> {/* Reuse the styling class name */}
-        <h2 className="form-title"> {/* Reuse the styling class name */}
+      <div className="form-container">
+        {" "}
+        {/* Reuse the styling class name */}
+        <h2 className="form-title">
+          {" "}
+          {/* Reuse the styling class name */}
           <span>Contact Us</span>
         </h2>
-
         <form className="form-content" onSubmit={handleSubmit}>
           <label>
             Full Name:
@@ -146,11 +150,11 @@ const ContactForm = () => {
           </p>
         </form>
       </div>
-
-      <div className="legal-footer"> {/* Reuse the styling class name */}
+      <div className="legal-footer">
+        {" "}
+        {/* Reuse the styling class name */}
         <p>© 2025-2027 CISS. All rights reserved.</p>
       </div>
-
       <ToastContainer autoClose={5000} limit={1} closeButton={false} />
     </div>
   );
