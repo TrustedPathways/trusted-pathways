@@ -36,7 +36,7 @@
     color: red;
     padding: 0 4px 0 0;
 }
-.form-content label :is(input, select) {
+.form-content label :is(input, select, textarea) {
     width: 100%;
     margin: 8px 0;
     padding: 0 12px;
@@ -51,6 +51,14 @@
     font-size: 18px;
     letter-spacing: .7px;
 }
+
+/* Make textarea taller */
+.form-content textarea {
+    height: 120px !important;
+    padding-top: 12px; /* Better spacing */
+    resize: vertical;  /* Allow resizing if you want */
+}
+
 /* Success Message */
 .success-message {
     margin: 20px 0 0 0;
